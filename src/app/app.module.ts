@@ -32,6 +32,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AlunoListComponent } from './components/aluno/aluno-list/aluno-list.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { AlunoListComponent } from './components/aluno/aluno-list/aluno-list.com
     NavComponent,
     HomeComponent,
     HeaderComponent,
-    AlunoListComponent
+    AlunoListComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
